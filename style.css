@@ -1,0 +1,92 @@
+#oso-panel-container {
+  background: #1b1b22;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 8px 0;
+  color: #e6e6ea;
+  font-size: 13px;
+}
+
+#oso-panel h4 {
+  margin: 10px 0 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #9a9aa5;
+}
+
+.oso-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.oso-bar {
+  flex: 1;
+  height: 8px;
+  background: #2a2a33;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.oso-bar-fill { height: 100%; }
+.oso-hp { background: #D85A30; }
+.oso-mp { background: #378ADD; }
+
+.oso-sp { margin-top: 6px; font-weight: 600; }
+
+.oso-senses { display: flex; flex-direction: column; gap: 4px; }
+
+.oso-sense-chip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #24242c;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.oso-sense-empty {
+  border-left: none;
+  color: #666;
+  justify-content: center;
+  border: 1px dashed #444;
+  background: transparent;
+}
+
+.oso-evolve-badge {
+  font-size: 10px;
+  background: #4a3a10;
+  color: #e0b040;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.oso-item-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 4px;
+}
+
+.oso-gold { margin-top: 8px; font-weight: 600; color: #e0c060; }
+
+#oso-dice-log {
+  margin-top: 10px;
+  max-height: 120px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+
+.oso-roll-entry {
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-bottom: 3px;
+  background: #24242c;
+}
+
+.oso-success { border-left: 3px solid #639922; }
+.oso-fail { border-left: 3px solid #a03030; }
+.oso-crit-success { border-left: 3px solid #e0c020; background: #33301a; }
+.oso-crit-fail { border-left: 3px solid #a03030; background: #331a1a; }
